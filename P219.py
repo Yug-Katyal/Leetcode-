@@ -11,5 +11,4 @@ class Solution(object):
 
             if len(slide) > k:
                 slide.remove(nums[i - k])
-
         return False
