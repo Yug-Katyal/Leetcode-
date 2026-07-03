@@ -5,6 +5,5 @@ class Solution(object):
        for i in range(len(nums2)):
             if nums2[i] in seen:
                 ans.append(nums2[i])
-            
        return list(set(ans))
         
