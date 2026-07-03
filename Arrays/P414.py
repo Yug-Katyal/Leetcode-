@@ -4,5 +4,4 @@ class Solution(object):
 
         if len(unique) >= 3:
             return unique[-3]
-
         return unique[-1]
