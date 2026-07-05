@@ -3,7 +3,6 @@ class Solution(object):
         slide = set()
 
         for i in range(len(nums)):
-
             if nums[i] in slide:
                 return True
 
