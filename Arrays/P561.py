@@ -1,6 +1,6 @@
 class Solution(object):
     def arrayPairSum(self, nums):
-        sortedarr = nums.sort()
+        nums=nums.sort()
         maxarr=[]
         i=0
         while i<len(nums):
